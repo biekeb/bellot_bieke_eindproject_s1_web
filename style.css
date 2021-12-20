@@ -1,0 +1,354 @@
+@import url(https://allfont.net/allfont.css?fonts=alien-encounters);
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(42, 42, 42);
+}
+
+
+
+.nava {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.nava a {
+
+    font-family: 'Black ops one';
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.nava a.active {
+    background-color: rgb(255, 163, 26);
+    color: white;
+}
+
+
+
+
+
+
+
+.home {
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.home img {
+    display: none;
+}
+
+.home h1 {
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black ops one';
+    padding-top: 20%;
+    text-align: center;
+
+}
+
+
+
+.gr h1 {
+    margin-left: 5%;
+    color: white;
+    font-family: 'verdana';
+    font-size: 16pt;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
+.reco img {
+    width: 90%;
+    margin-left: 5%;
+
+
+
+}
+
+.gta img {
+    margin-bottom: 30px;
+}
+
+.reco h3 {
+    margin-left: 5%;
+    color: white;
+    font-family: 'verdana';
+    font-size: 16px;
+}
+
+.reco p {}
+
+
+
+/*bo2*/
+
+.headerbo {
+    /*position: relative;*/
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+
+
+}
+
+.headerbo img {
+    display: none;
+}
+
+.headerbo h2 {
+
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black ops one';
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+
+.sectbo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sectbo img {
+    width: 90%;
+    margin-left: 5%;
+
+
+}
+
+.sectbo h2 {
+    color: white;
+    font-family: 'verdana';
+    font-size: 16pt;
+    margin-left: 5%;
+
+}
+
+.sectbo p {
+    font-size: 40px;
+    color: white;
+    font-family: 'verdana';
+    font-size: 12pt;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+
+
+/*crusader kings 2*/
+
+.headerck {
+    background-color: rgb(255, 163, 26);
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.headerck img {
+    display: none;
+}
+
+.headerck h2 {
+
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Black ops one';
+    padding-top: 10%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 480px) {
+    .home h1 {
+        color: red;
+
+    }
+
+    .home {
+        width: 100%;
+    }
+}
+
+/*bo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px) {
+
+
+    .nava {
+        height: 80px;
+    }
+
+    .nava a {
+
+        font-family: 'Black ops one';
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        font-size: 30pt;
+
+    }
+
+    .home {
+        position: relative;
+        background-color: none;
+        display: block;
+    }
+
+
+
+    .home img {
+        width: 100%;
+        background-size: cover;
+        display: block;
+        height: 0 auto
+    }
+
+
+    .home h1 {
+        color: aliceblue;
+        font-family: Black Ops One;
+        font-size: 100px;
+        position: absolute;
+        z-index: 5;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%;
+        bottom: 50%;
+
+
+
+    }
+
+    .headerbo {
+        display: none;
+    }
+
+    /*navigation*/
+
+
+
+
+    /*selection
+
+    .selreco {
+        margin-top: 4%;
+    }
+*/
+    .reco {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    /*
+
+    .reco img {
+        width: 400px;
+        flex: 1;
+    }
+
+    .reco h3 {
+        font-family: sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .gr h1 {
+        text-align: center;
+        font-family: sans-serif;
+        color: aliceblue;
+        font-size: 50px;
+    }
+}
+*/
+
+    .bo2 {
+        flex: 1;
+    }
+
+    .ck2 {
+        flex: 1;
+    }
+
+    .gta {
+        flex: 1;
+
+
+    }
+
+    .sectbo1 {
+        display: flex;
+
+    }
+
+    .bogameplay {
+        flex: 1;
+
+    }
+
+    .bomulti {
+        flex: 1;
+    }
+
+    .sectbo1 img {
+        height: 50%;
+    }
+}
